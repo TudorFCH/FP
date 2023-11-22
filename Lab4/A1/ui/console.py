@@ -1,9 +1,9 @@
 import turtle
-from logik.letters import draw_a,draw_b,draw_c,draw_d,draw_e,draw_f,draw_g,draw_h,draw_i,draw_j,draw_k
-from logik.letters import draw_l,draw_m,draw_n,draw_o,draw_p,draw_q,draw_r,draw_s,draw_t,draw_u,draw_v
-from logik.letters import draw_w,draw_x,draw_y,draw_z,draw_dot,draw_exclam,draw_question
+from A1.logik.letters import draw_a,draw_b,draw_c,draw_d,draw_e,draw_f,draw_g,draw_h,draw_i,draw_j,draw_k
+from A1.logik.letters import draw_l,draw_m,draw_n,draw_o,draw_p,draw_q,draw_r,draw_s,draw_t,draw_u,draw_v
+from A1.logik.letters import draw_w,draw_x,draw_y,draw_z,draw_dot,draw_exclam,draw_question
 
-from logik.instructions import w,s,d,a,f,g
+from A1.logik.instructions import w,s,d,a,f,g
 
 def user_input():
 

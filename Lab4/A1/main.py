@@ -1,16 +1,25 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+import turtle
+from ui.console import user_input, user_input1
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+def menu():
+     return """
+        1 - Textnachricht zeichnen
+        2 - Neues Zeichen hinzufugen
+     """
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+def main():
+    print(menu())
+    opt = int(input('opt= '))
+    if opt == 1:
+        user_input()
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    if opt == 2:
+        user_input1()
+
+
+main()
+
+
+
