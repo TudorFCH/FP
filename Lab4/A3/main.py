@@ -1,10 +1,12 @@
 import random
+from ui import menu
 
 #1=Rock
 #2=Paper
 #3=Scissors
 
 def rps():
+    print(menu())
     rounds=0
     playerwins=0
     computerwins=0
@@ -39,9 +41,8 @@ def rps():
       (____)
 ---.__(___)
 """
-        playerchoice = int(input('1.Rock \n'
-                                 '2.Paper\n'
-                                 '3.Scissors\n'))
+        playerchoice = opt = int(input('opt= '))
+
         if (playerchoice == 1):
             strplayerchoice = """
             _______
