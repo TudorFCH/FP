@@ -4,12 +4,12 @@ import random
 #2=Paper
 #3=Scissors
 
-def rockpaperscissorsgame():
+def rps():
     rounds=0
     playerwins=0
     computerwins=0
     list = [1, 2, 3]
-    while(rounds<3):
+    while rounds<3:
         rounds+=1
         computerchoice=random.choice(list)
         if(computerchoice==1):
@@ -90,3 +90,5 @@ def rockpaperscissorsgame():
         print('Unlucky... You lost the game...')
     if(playerwins==computerwins):
         print('How boring, a draw...')
+
+rps()
