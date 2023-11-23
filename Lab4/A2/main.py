@@ -3,7 +3,6 @@ def ersetzung(wordout,wordin):
     f = open("text.txt", "r")
     s=f.read()
     l=s.split()
-
     a=''
     ct=0
     for i in range(len(l)):
