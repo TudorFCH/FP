@@ -2,7 +2,8 @@ def ersetzung(wordout,wordin):
 
     f = open("text.txt", "r")
     s=f.read()
-    l=s.split(" ")
+    l=s.split()
+
     a=''
     ct=0
     for i in range(len(l)):
@@ -18,3 +19,5 @@ def ersetzung(wordout,wordin):
         print('Das gewahlte Wort wurde ' + str(ct) + ' Mal ersetzt')
     else:
         print('Das gewahlte Wort befindet sich nicht in der Datei')
+
+ersetzung('elefant', 'katze')

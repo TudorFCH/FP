@@ -1,1 +1,2 @@
-elefant klein elefant gross  
+katze klein katze gross
+katze

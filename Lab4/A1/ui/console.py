@@ -33,6 +33,8 @@ def user_input():
 
 def user_input1():
     inputs = []
+    wn = turtle.Screen()
+    p = turtle.Turtle()
     ok=1
     dict = {"w": w, "s": s, "d": d, "a": a, "f": f, "g": g}
 
@@ -55,9 +57,6 @@ def user_input1():
                 fi.write(' ')
 
         fi.close()
-
-        wn = turtle.Screen()
-        p = turtle.Turtle()
 
         for i in range(len(l)):
             dict[l[i]](p)
