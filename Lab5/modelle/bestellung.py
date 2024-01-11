@@ -15,7 +15,3 @@ class Bestellung(Identifiable):
         return (f'Order: ID = {self.id}, Customer ID = {self.customer_id}, '
                 f'IDs of Dishes = {self.list_of_dish_id}, '
                 f'IDs of Drinks = {self.list_of_drink_id}')
-
-
-
-
