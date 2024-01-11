@@ -19,4 +19,4 @@ def ersetzung(wordout,wordin):
     else:
         print('Das gewahlte Wort befindet sich nicht in der Datei')
 
-ersetzung('elefant', 'katze')
+ersetzung('katze', 'katze')
