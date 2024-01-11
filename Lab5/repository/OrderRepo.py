@@ -10,7 +10,6 @@ class OrderRepo(DataRepo):
     def __init__(self):
 
         super().__init__("OrderRepo.txt")
-        self.filename = self.__class__.__name__ + ".txt"
         self.orders = []
 
     def add_orders(self, order):
